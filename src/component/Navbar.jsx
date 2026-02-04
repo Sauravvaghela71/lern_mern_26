@@ -6,7 +6,7 @@ export const Navbar = () => {
   return (
     <>
     
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav style={{background:"pink"}} class="navbar navbar-expand-lg navbar-light " >
   <div class="container-fluid">
     <Link class="navbar-brand" to="#">Navbar</Link>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,7 +24,9 @@ export const Navbar = () => {
 
         <li class="nav-item">
           <Link class="nav-link active" aria-current="page" to="/movies">movies</Link>
+
         </li>
+
 
        
        
