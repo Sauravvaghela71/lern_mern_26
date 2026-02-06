@@ -27,6 +27,11 @@ export const Navbar = () => {
 
         </li>
 
+         <li class="nav-item">
+          <Link class="nav-link active" aria-current="page" to="/usestate">usesate</Link>
+
+        </li>
+
 
        
        

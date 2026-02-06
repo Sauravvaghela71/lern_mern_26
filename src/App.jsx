@@ -11,6 +11,7 @@ import Error from './component/Error'
 import { Link } from 'react-router-dom'
 import Movies  from './component/Movies'
 import Watch from './component/Watch'
+import Usestate from './component/Usestate'
 
 function App() {
   
@@ -25,6 +26,7 @@ function App() {
       <Route path="/movies" element={<Movies />} />
       <Route path="/watch/:name" element={<Watch />} />
       <Route path="/*" element={<Error />} />
+      <Route path="/usestate" element={<Usestate />} />
 
 
     </Routes>
