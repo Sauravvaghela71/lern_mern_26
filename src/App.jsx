@@ -13,6 +13,7 @@ import Movies  from './component/Movies'
 import Watch from './component/Watch'
 import Usestate from './component/Usestate'
 import Map from './component/Map'
+import UseForm from './component/UseForm'
 
 function App() {
   
@@ -20,7 +21,7 @@ function App() {
   return (
     <>
     <Navbar></Navbar>
-    <Map></Map>
+    {/* <Map></Map> */}
 
     <Routes>
       <Route path="/netflixHome" element={<NetflixHome />} />
@@ -29,6 +30,7 @@ function App() {
       <Route path="/watch/:name" element={<Watch />} />
       <Route path="/*" element={<Error />} />
       <Route path="/usestate" element={<Usestate />} />
+      <Route path="/useform" element={<UseForm />} />
 
 
     </Routes>
