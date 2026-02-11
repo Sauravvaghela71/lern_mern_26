@@ -8,9 +8,10 @@ const Map = () => {
 
   return (<>
     <h1>Map</h1>
-    {users.map((users) =>{
-        return ( <li>{users.id}-{users.name}-{users.city}-{users.age}</li>)
-    })}
+    {users.map((users) =>
+         <li>{users.id}-{users.name}-{users.city}-{users.age}</li>
+         
+)}
   </>
   )
 }

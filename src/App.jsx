@@ -12,6 +12,7 @@ import { Link } from 'react-router-dom'
 import Movies  from './component/Movies'
 import Watch from './component/Watch'
 import Usestate from './component/Usestate'
+import Map from './component/Map'
 
 function App() {
   
@@ -19,6 +20,7 @@ function App() {
   return (
     <>
     <Navbar></Navbar>
+    <Map></Map>
 
     <Routes>
       <Route path="/netflixHome" element={<NetflixHome />} />
