@@ -1,7 +1,12 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { Link } from 'react-router-dom';
+import { UserContext } from './store/UserContext';
 
 const Movies = () => {
+
+  const contextData = useContext(UserContext);
+  console.log(contextData)
+
 
   let movies = [     {id:1,name:"kali"},
                      {id:2,name:"saybo"},

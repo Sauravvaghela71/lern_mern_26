@@ -14,15 +14,20 @@ import Watch from './component/Watch'
 import Usestate from './component/Usestate'
 import Map from './component/Map'
 import UseForm from './component/UseForm'
+import { UserContext } from './component/store/UserContext'
+import Dropdown from './component/Dropdown'
 
 function App() {
   
-
+  const user = "saurav";
   return (
     <>
     <Navbar></Navbar>
     {/* <Map></Map> */}
 
+    {/* <UserContext.Provider value={user}>
+    <Movies />
+    </UserContext.Provider> */}
     <Routes>
       <Route path="/netflixHome" element={<NetflixHome />} />
       <Route path="/netflixAbout" element={<NetflixAbout />} />
@@ -31,6 +36,7 @@ function App() {
       <Route path="/*" element={<Error />} />
       <Route path="/usestate" element={<Usestate />} />
       <Route path="/useform" element={<UseForm />} />
+      <Route path="/dropdown" element={<Dropdown />} />
 
 
     </Routes>
