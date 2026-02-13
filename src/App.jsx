@@ -25,9 +25,9 @@ function App() {
     <Navbar></Navbar>
     {/* <Map></Map> */}
 
-    {/* <UserContext.Provider value={user}>
+    { <UserContext.Provider value={user}>
     <Movies />
-    </UserContext.Provider> */}
+    </UserContext.Provider> }
     <Routes>
       <Route path="/netflixHome" element={<NetflixHome />} />
       <Route path="/netflixAbout" element={<NetflixAbout />} />
