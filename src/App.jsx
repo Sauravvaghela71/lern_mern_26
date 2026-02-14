@@ -17,6 +17,8 @@ import UseForm from './component/UseForm'
 import { UserContext } from './component/store/UserContext'
 import Dropdown from './component/Dropdown'
 import ParentContext from './component/ParentContext'
+import UseReducer from './component/UseReducer'
+import UseReducer2 from './component/UseReducer2'
 
 function App() {
   
@@ -36,6 +38,8 @@ function App() {
       <Route path="/useform" element={<UseForm />} />
       <Route path="/dropdown" element={<Dropdown />} />
       <Route path="/parentcontext" element={<ParentContext />} />
+      <Route path="/usereducer" element={<UseReducer />} />
+      <Route path="/usereducer2" element={<UseReducer2 />} />
       
 
 

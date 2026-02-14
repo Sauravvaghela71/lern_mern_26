@@ -47,6 +47,16 @@ export const Navbar = () => {
 
         </li>
 
+        <li class="nav-item">
+          <Link class="nav-link active" aria-current="page" to="/usereducer">usereducer</Link>
+
+        </li>
+
+        <li class="nav-item">
+          <Link class="nav-link active" aria-current="page" to="/usereducer2">UseReducer2</Link>
+
+        </li>
+
 
        
        
