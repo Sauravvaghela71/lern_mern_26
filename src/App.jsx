@@ -19,6 +19,7 @@ import Dropdown from './component/Dropdown'
 import ParentContext from './component/ParentContext'
 import UseReducer from './component/UseReducer'
 import UseReducer2 from './component/UseReducer2'
+import UseMemo from './component/UseMemo'
 
 function App() {
   
@@ -40,6 +41,7 @@ function App() {
       <Route path="/parentcontext" element={<ParentContext />} />
       <Route path="/usereducer" element={<UseReducer />} />
       <Route path="/usereducer2" element={<UseReducer2 />} />
+      <Route path="/usememo" element={<UseMemo />} />
       
 
 
