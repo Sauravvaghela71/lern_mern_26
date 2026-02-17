@@ -20,6 +20,8 @@ import ParentContext from './component/ParentContext'
 import UseReducer from './component/UseReducer'
 import UseReducer2 from './component/UseReducer2'
 import UseMemo from './component/UseMemo'
+import Axios from './component/Api/Axios'
+import Axios2 from './component/Api/Axios2'
 
 function App() {
   
@@ -42,6 +44,8 @@ function App() {
       <Route path="/usereducer" element={<UseReducer />} />
       <Route path="/usereducer2" element={<UseReducer2 />} />
       <Route path="/usememo" element={<UseMemo />} />
+      <Route path="/axios" element={<Axios />} />
+      <Route path="/axios2" element={<Axios2 />} />
       
 
 

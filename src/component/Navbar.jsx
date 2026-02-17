@@ -62,6 +62,16 @@ export const Navbar = () => {
 
         </li>
 
+        <li class="nav-item">
+          <Link class="nav-link active" aria-current="page" to="/axios">axios</Link>
+
+        </li>
+
+        <li class="nav-item">
+          <Link class="nav-link active" aria-current="page" to="/axios2">axios2</Link>
+
+        </li>
+
 
        
        
