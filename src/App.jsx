@@ -22,6 +22,8 @@ import UseReducer2 from './component/UseReducer2'
 import UseMemo from './component/UseMemo'
 import Axios from './component/Api/Axios'
 import Axios2 from './component/Api/Axios2'
+import MovieGrid from './component/Api/MovieGrid'
+import MoviesDetails from './component/Api/MoviesDetails'
 
 function App() {
   
@@ -46,6 +48,8 @@ function App() {
       <Route path="/usememo" element={<UseMemo />} />
       <Route path="/axios" element={<Axios />} />
       <Route path="/axios2" element={<Axios2 />} />
+      <Route path="/moviegrid" element={<MovieGrid />} />
+      <Route path="/movie/:id" element={< MoviesDetails/>} />
       
 
 

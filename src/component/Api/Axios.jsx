@@ -7,26 +7,30 @@ import Axios2 from './Axios2'
 const Axios = () => {
    const [product, setProduct] = useState([])
    
-   
-   
-
     const ApiCalling = async() =>{
 
-      const response = await axios.get('https://dummyjson.com/products')
+
+
+      const response = await axios.get('https://dummyjson.com/products',{
+        
+      })
       console.log(response);
       console.log(response.data.message)
       console.log(response.data);
       setProduct(response.data.products);
-      
-      
-      
+     
     }
 
   return (<>
+  <div style={{textAlign:"center", color:"red"}}>
     <h4>Axios</h4>
+    
     <button onClick={()=>{ApiCalling()}}>get</button>
+  </div>
     {product.length > 0 && (
-    <table> 
+    <table className="table"> 
+    <thead>
+
       <tr>
 
       <th>title</th>
@@ -34,7 +38,10 @@ const Axios = () => {
       <th>category</th>
       <th>price</th>
       </tr>
+    </thead>
      
+     <tbody>
+
       {
         product.map((u)=>{
           return  <tr key={u.id}>
@@ -45,15 +52,13 @@ const Axios = () => {
              </tr>
         })
       }
-      
-    
-
+      </tbody>
+   
       </table>
 
-    
     )
     }
-    <Axios2/>
+   
     </>
     )
 }

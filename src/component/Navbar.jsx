@@ -72,6 +72,11 @@ export const Navbar = () => {
 
         </li>
 
+         <li class="nav-item">
+          <Link class="nav-link active" aria-current="page" to="/movieGrid">Movie Grid</Link>
+
+        </li>
+
 
        
        
