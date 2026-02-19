@@ -77,6 +77,11 @@ export const Navbar = () => {
 
         </li>
 
+        <li class="nav-item">
+          <Link class="nav-link active" aria-current="page" to="/postapi">Post Api</Link>
+
+        </li>
+
 
        
        

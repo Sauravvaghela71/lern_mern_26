@@ -24,6 +24,7 @@ import Axios from './component/Api/Axios'
 import Axios2 from './component/Api/Axios2'
 import MovieGrid from './component/Api/MovieGrid'
 import MoviesDetails from './component/Api/MoviesDetails'
+import PostApi from './component/Api/PostApi'
 
 function App() {
   
@@ -50,6 +51,7 @@ function App() {
       <Route path="/axios2" element={<Axios2 />} />
       <Route path="/moviegrid" element={<MovieGrid />} />
       <Route path="/movie/:id" element={< MoviesDetails/>} />
+      <Route path="postapi" element={< PostApi/>} />
       
 
 
